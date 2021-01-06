@@ -1,0 +1,41 @@
+---
+title: "HTML Presentations or: How I learned to Stop Worrying and Love the Web"
+description: |
+  Building impressive presentations with modern web technologies
+author:
+  - name: Matt Warkentin
+    url: https://mattwarkentin.github.io/
+    affiliation: Lunenfeld-Tanenbaum Research Institute
+date: 10-31-2020
+preview: https://raw.githubusercontent.com/mattwarkentin/html-presentations-or-hiltswaltw/master/docs/share-card.png
+categories:
+  - presentation
+  - xaringan
+  - xaringanExtra
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(xaringanExtra)
+```
+
+# HTML presentations
+
+Moving to an [R Markdown](https://rmarkdown.rstudio.com/) based workflow was a game changer for me. Before that, I was stuck in the world of Microsoft Office like most others. Quickly, I began to adopt an R markdown approach for more and more of my day-to-day tasks. It started with simple static documents, but would quickly grow into using R Markdown for nearly everything, including presentations, websites, and much more.
+
+I began using R Markdown for presentations by going the LaTeX route and making [Beamer](https://www.overleaf.com/learn/latex/beamer) PDF presentations^[Beamer presentations had been around for a long time in the math world, but at the time I didn't know anything about LaTeX or Beamer, so I did not begin making Beamer presentations until I discovered R Markdown]. This was a significant improvement upon PowerPoint, and made things a lot better with respect to version-control, reproducibility, and easy integration of code and output along with traditional presentation content.
+
+Shortly after making the switch to R Markdown for creating presentations, I became aware of [`xaringan`](https://slides.yihui.org/xaringan/), which offered all of the same benefits as Beamer, but since the presentation format was HTML, it also opened up the entire world of web technologies to create dynamic presentation content. The combination of `xaringan`, [`xaringanthemer`](https://pkg.garrickadenbuie.com/xaringanthemer/), and [`xaringanExtra`](https://pkg.garrickadenbuie.com/xaringanExtra/#/) have revolutionized the way I make presentations - and I will never go back.
+
+# Slide deck
+
+The slide deck below was prepared for an internal presentation to members of my lab. I had preached the gospel of HTML presentations and `xaringan` long enough that it made good sense to formalize my comments in this presentation. Hopefully others may find these slides helpful in making the transition to HTML presentations.
+
+```{r}
+embed_xaringan(
+  "https://mattwarkentin.github.io/html-presentations-or-hiltswaltw/"
+)
+```

@@ -1,0 +1,43 @@
+---
+title: "Reproducible and scalable data analysis workflows with targets"
+description: |
+  Dynamic Function-Oriented Make-Like Declarative Pipelines for R.
+author:
+  - name: Matt Warkentin
+    url: https://mattwarkentin.github.io/
+date: 11-12-2020
+preview: https://raw.githubusercontent.com/mattwarkentin/targets-demo/master/docs/share-card.png
+categories:
+  - presentation
+  - targets
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(xaringanExtra)
+```
+
+# R-centric project workflows
+
+Writing good code is hard, and coordinating all of the code, data, and outputs for a project to ensure accurate and reproducible results is even harder. In theory, we should be able to return to a project years later and it should _"just work"_. Often this isn't true even if we return to the project weeks or months later.
+
+I was late to adopt [`drake`](https://docs.ropensci.org/drake) for managing my `R`-based projects. For those of you that aren't familiar, `drake` is a mature `R` package that offers functionality like `GNU make` or `snakemake`, but is specifically geared towards projects heavily using `R`.
+
+> For projects in R, the drake package can help. It analyzes your workflow, skips steps with up-to-date results, and orchestrates the rest with optional distributed computing. At the end, drake provides evidence that your results match the underlying code and data, which increases your ability to trust your research.
+
+Adopting `drake` really changed the way I thought about how to develop and structure my `R` projects moving forward. However, [shortly after finding `drake`, I stumbled upon its _heir apparent_](https://github.com/ropensci/drake/issues/1295#issuecomment-660350807), the freshly public [`targets`](https://wlandau.github.io/targets) package, which was under rapid development and aimed to use lessons learned from `drake` to create an API that was more consistent, friendly, and extensible than its predecessor.
+
+> The targets package is a Make-like pipeline toolkit for Statistics and data science in R. With targets, you can maintain a reproducible workflow without repeating yourself. targets learns how your pipeline fits together, skips costly runtime for tasks that are already up to date, runs only the necessary computation, supports implicit parallel computing, abstracts files as R objects, and shows tangible evidence that the results match the underlying code and data.
+
+I was a very early adopter of `targets`, and in some small way helped to push its development forward by helping its best-in-class author, [Will Landau](https://github.com/wlandau), work through bugs and consider new features ^[I am listed as a formal contributor to `targets`, which also precluded me from accepting the opportunity to review the package for ROpenSci]. As of writing this post, `targets` is undergoing review by ROpenSci, and is working towards a CRAN release in the not-so-distant future.
+
+After mentioning `drake`, and then `targets`, in many many lab meetings, I was asked to present on the topic to demonstrate how I have been using these packages for my current work. The slide deck below was used for this internal presentation, but I thought I would make the slides publicly available in case others may find it useful.
+
+# Slide deck
+
+```{r}
+embed_xaringan("https://mattwarkentin.github.io/targets-demo/")
+```

@@ -1,0 +1,67 @@
+---
+title: "Matt Warkentin"
+image: "imgs/WARKENTIN_MATT.jpg"
+links:
+  - label: '`r fontawesome::fa("twitter")` Twitter'
+    url: "https://twitter.com/mattwrkntn"
+  - label: '`r fontawesome::fa("github")` GitHub'
+    url: "https://github.com/mattwarkentin"
+  - label: '`r fontawesome::fa("envelope")` Email'
+    url: "mailto:warkentin@lunenfeld.ca"
+output:
+  postcards::trestles
+---
+ 
+## Bio
+
+Matt received his BSc in Medical Sciences and MSc in Epidemiology from Brock University. Matt is currently a PhD candidate in Epidemiology at the Dalla Lana School of Public Health at the University of Toronto and a Doctoral Fellow at the Lunenfeld-Tanenbaum Research Institute. Matt's doctoral work is co-supervised by Kieran  R. Campbell and Rayjean J. Hung. 
+
+Briefly, his research focuses on the molecular epidemiology of cancers. In particular, his work includes integrating genomics into high-risk stratification models for lung cancer screening, and using deep learning to analyze biomedical images to aid in the clinical-management of screen-detected pulmonary lesions.
+
+## Education
+
+**University of Toronto** | Toronto, ON, Canada
+
+Ph.D. in Molecular Epidemiology | September 2016 - Present
+
+**University of Toronto** | Toronto, ON, Canada
+
+Trainee, Strategic Training for Advanced Genetic Epidemiology | September 2016 - Present
+
+**Brock University** | St. Catharines, ON, Canada
+
+M.Sc. in Epidemiology | September 2013 - May 2015
+
+**Brock University** | St. Catharines, ON, Canada
+
+B.Sc. in Medical Sciences | September 2009 - April 2013
+
+## Research Experience
+
+**Lunenfeld-Tanenbaum Research Institute** | Doctoral Fellow | September 2016 - Present
+
+**Harvard University** | Visiting Scholar | Summer 2019
+
+**Alberta Health Services** | Research Associate | January 2015 - August 2015
+
+## Teaching
+
+**University of Toronto**
+
+- Teaching Assistant
+  - Biostats I (CHL5201) | 2019
+  - Biostats II (CHL5202) | 2020
+  - Epidemiologic Methods I (CHL5401) | 2016-2017
+  - Epidemiologic Methods II (CHL5402) | 2017-2018
+
+**Brock University**
+
+- Course Instructor
+  - Modern Epidemiology (MPHA 5P03) | 2018
+
+- Teaching Assistant
+  - Biostatistics I (HLSC 2P07) | 2013-2015
+  - Biostatistics II (HLSC 2P07) | 2013-2015
+  - Research Methods in Epidemiology (HLSC 2P07) | 2015
+  - Research Methods in Health (HLSC 2P07) | 2015
+  - Medical Microbiology (HLSC 2P07) | 2015

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Matt Warkentin</title>
+    <link>https://mattwarkentin.github.io/</link>
+    <atom:link href="https://mattwarkentin.github.io/index.xml" rel="self" type="application/rss+xml"/>
+    <description>This is the personal website and blog for Matt Warkentin.
+</description>
+    <image>
+      <title>Matt Warkentin</title>
+      <url>https://mattwarkentin.github.io/imgs/code.png</url>
+      <link>https://mattwarkentin.github.io/</link>
+    </image>
+    <generator>Distill</generator>
+    <lastBuildDate>Thu, 12 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Reproducible and scalable data analysis workflows with targets</title>
+      <dc:creator>Matt Warkentin</dc:creator>
+      <link>https://mattwarkentin.github.io/posts/2020-11-12-targets-demo</link>
+      <description>Dynamic Function-Oriented Make-Like Declarative Pipelines for R.</description>
+      <category>presentation</category>
+      <category>targets</category>
+      <guid>https://mattwarkentin.github.io/posts/2020-11-12-targets-demo</guid>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://raw.githubusercontent.com/mattwarkentin/targets-demo/master/docs/share-card.png" medium="image" type="image/png"/>
+    </item>
+    <item>
+      <title>HTML Presentations or: How I learned to Stop Worrying and Love the Web</title>
+      <dc:creator>Matt Warkentin</dc:creator>
+      <link>https://mattwarkentin.github.io/posts/2020-10-31-html-presentations</link>
+      <description>Building impressive presentations with modern web technologies</description>
+      <category>presentation</category>
+      <category>xaringan</category>
+      <category>xaringanExtra</category>
+      <guid>https://mattwarkentin.github.io/posts/2020-10-31-html-presentations</guid>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://raw.githubusercontent.com/mattwarkentin/html-presentations-or-hiltswaltw/master/docs/share-card.png" medium="image" type="image/png"/>
+    </item>
+  </channel>
+</rss>

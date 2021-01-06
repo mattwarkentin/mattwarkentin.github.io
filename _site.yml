@@ -1,0 +1,36 @@
+name: "mattwarkentin.github.io"
+title: "Matt Warkentin"
+description: |
+  This is the personal website and blog for Matt Warkentin.
+base_url: https://mattwarkentin.github.io/
+google_analytics: ""
+output_dir: "docs"
+favicon: imgs/code.png
+twitter:
+  site: "@mattwrkntn"
+creative_commons: CC BY
+navbar:
+  search: false
+  logo: imgs/logo.png
+  source_url: https://github.com/mattwarkentin/mattwarkentin.github.io
+  right:
+    - text: "Posts"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - icon: fa fa-rss
+      href: index.xml
+collections:
+  posts:
+    authors_metadata: false
+    feed_items_max: false
+    custom: _custom.html
+output:
+  distill::distill_article:
+    css: [css/extra.css]
+    theme: css/theme.css
+    includes:
+      after_body: [js/r-links.html]
+    toc: true
+    toc_depth: 1
+    toc_float: true
