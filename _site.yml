@@ -30,7 +30,7 @@ output:
     css: [css/extra.css]
     theme: css/theme.css
     includes:
-      after_body: [js/r-links.html]
+      after_body: [js/r-links.html, js/utterances.html]
     toc: true
     toc_depth: 1
     toc_float: true
