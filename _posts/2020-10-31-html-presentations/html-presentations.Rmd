@@ -1,5 +1,5 @@
 ---
-title: "HTML Presentations or: How I learned to Stop Worrying and Love the Web"
+title: "HTML Presentations or: How I Learned to Stop Worrying and Love the Web"
 description: |
   Building impressive presentations with modern web technologies
 author:
@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(xaringanExtra)
 ```
 
-# HTML presentations
+# HTML Presentations
 
 Moving to an [R Markdown](https://rmarkdown.rstudio.com/) based workflow was a game changer for me. Before that, I was stuck in the world of Microsoft Office like most others. Quickly, I began to adopt an R markdown approach for more and more of my day-to-day tasks. It started with simple static documents, but would quickly grow into using R Markdown for nearly everything, including presentations, websites, and much more.
 

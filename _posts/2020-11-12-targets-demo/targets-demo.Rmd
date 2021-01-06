@@ -5,6 +5,7 @@ description: |
 author:
   - name: Matt Warkentin
     url: https://mattwarkentin.github.io/
+    affiliation: Lunenfeld-Tanenbaum Research Institute
 date: 11-12-2020
 preview: https://raw.githubusercontent.com/mattwarkentin/targets-demo/master/docs/share-card.png
 categories:
