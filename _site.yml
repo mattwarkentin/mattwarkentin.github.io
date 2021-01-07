@@ -10,7 +10,7 @@ twitter:
   site: "@mattwrkntn"
 creative_commons: CC BY
 navbar:
-  search: false
+  search: true
   logo: imgs/logo.png
   source_url: https://github.com/mattwarkentin/mattwarkentin.github.io
   right:
