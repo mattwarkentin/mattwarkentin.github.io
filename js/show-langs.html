@@ -1,0 +1,25 @@
+<script type="text/javascript" charset="utf-8">
+  document.addEventListener("DOMContentLoaded", function() {
+    const code = document.querySelectorAll("pre.sourceCode");
+    if (code === null) return;
+    code.forEach(item => {
+      const lang = item.className.split(" ")[1];
+      item.insertAdjacentHTML(
+        "beforeBegin",
+        "<img src=imgs/" + lang + ".png style='position:absolute;transform: translateX(-30px);opacity:0.2;' class='lang' />"
+        );
+    });
+    const imgs = document.querySelectorAll("img.lang");
+    const imgs_array = Array.from(imgs);
+    const imgs_hover = imgs_array.map(item => {
+      item.nextSibling.addEventListener("mouseover", function() {
+        this.previousSibling.style.opacity = 0.8;
+        this.previousSibling.style.transition = "ease 250ms"
+      });
+      item.nextSibling.addEventListener("mouseout", function() {
+        this.previousSibling.style.opacity = 0.2;
+        this.previousSibling.style.transition = "ease 500ms"
+      });
+    });
+  });
+</script>
